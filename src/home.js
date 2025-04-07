@@ -3,7 +3,7 @@ import "./home.css";
 export default function loadHome() {
   const content = document.querySelector("#content");
 
-  content.innerHTML = `<div class="hero">
+  content.innerHTML = `<div class="home-hero">
           <h1>Satisfy Your Cravings, Delight Your Senses.</h1>
         </div>
 
