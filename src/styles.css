@@ -42,6 +42,11 @@ button:hover {
   cursor: pointer;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 header {
   display: grid;
   align-items: center;
