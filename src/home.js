@@ -1,4 +1,7 @@
 import "./home.css";
+import freshLocalImage from "./home-benefit-1.jpg";
+import cozyAmbienceImage from "./home-benefit-2.jpg";
+import guiltyFreeImage from "./home-benefit-3.jpg";
 
 export default function loadHome() {
   const content = document.querySelector("#content");
@@ -14,14 +17,14 @@ export default function loadHome() {
               Our commitment to using fresh, locally sourced ingredients ensures every meal is both healthy and full of
               flavor.
             </p>
-            <img src="" alt="" />
+            <img src="${freshLocalImage}" alt="" />
           </div>
           <div class="benefit-2">
           <h2>Cozy Ambience</h2>
             <p>
               With a cozy ambiance and attentive service, Savory & Sweet creates the perfect setting for any occasion.
             </p>
-            <img src="" alt="" />
+            <img src="${cozyAmbienceImage}" alt="" />
           </div>
           <div class="benefit-3">
           <h2>Guilty-Free</h2>
@@ -29,7 +32,7 @@ export default function loadHome() {
               Enjoy guilt-free indulgence, knowing that our sustainable practices make every dish as kind to the planet
               as it is to your taste buds.
             </p>
-            <img src="" alt="" />
+            <img src="${guiltyFreeImage}" alt="" />
           </div>
         </div>
 
