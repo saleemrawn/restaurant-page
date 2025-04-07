@@ -48,7 +48,7 @@ export default function loadHome() {
           </div>
 
           <div class="allergy">
-            <h3>Allergies & & Dietary Requirements</h3>
+            <h3>Allergies & Dietary Requirements</h3>
             <p>
               At Savory & Sweet, we take allergy concerns seriously. Our staff is trained to assist with ingredient
               information, and we offer options for various dietary restrictions. Please inform us of any allergies, and
