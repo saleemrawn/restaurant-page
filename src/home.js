@@ -2,6 +2,7 @@ import "./home.css";
 import freshLocalImage from "./home-benefit-1.jpg";
 import cozyAmbienceImage from "./home-benefit-2.jpg";
 import guiltyFreeImage from "./home-benefit-3.jpg";
+import menuImage from "./home-menu.jpg";
 
 export default function loadHome() {
   const content = document.querySelector("#content");
@@ -67,7 +68,7 @@ export default function loadHome() {
             </div>
           </div>
           <div class="menu-right-col">
-            <img src="" alt="" />
+            <img src="${menuImage}" alt="" />
           </div>
         </div>
 
