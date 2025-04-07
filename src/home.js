@@ -3,6 +3,7 @@ import freshLocalImage from "./home-benefit-1.jpg";
 import cozyAmbienceImage from "./home-benefit-2.jpg";
 import guiltyFreeImage from "./home-benefit-3.jpg";
 import menuImage from "./home-menu.jpg";
+import bookingsImage from "./home-bookings.jpg";
 
 export default function loadHome() {
   const content = document.querySelector("#content");
@@ -74,7 +75,7 @@ export default function loadHome() {
 
         <div class="bookings">
           <div class="booking-left-col">
-            <img src="" alt="" />
+            <img src="${bookingsImage}" alt="" />
           </div>
           <div class="booking-right-col">
              <div class="reservations">
