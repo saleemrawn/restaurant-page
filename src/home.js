@@ -37,34 +37,37 @@ export default function loadHome() {
         </div>
 
         <div class="menu">
-          <div class="menu-intro">
-            <h2>Our menu</h2>
-            <p>
-              We offer a delightful fusion of savory dishes and indulgent desserts, each crafted with the finest,
-              locally sourced ingredients. From hearty, flavorful mains to mouthwatering sweet treats, every dish is
-              designed to provide a memorable dining experience. Whether you're craving something light and fresh or
-              rich and satisfying, we have something to please every palate.
-            </p>
+          <div class="menu-left-col">
+            <div class="menu-intro">
+              <h2>Our menu</h2>
+              <p>
+                We offer a delightful fusion of savory dishes and indulgent desserts, each crafted with the finest,
+                locally sourced ingredients. From hearty, flavorful mains to mouthwatering sweet treats, every dish is
+                designed to provide a memorable dining experience. Whether you're craving something light and fresh or
+                rich and satisfying, we have something to please every palate.
+              </p>
+            </div>
+            <div class="allergy">
+              <h3>Allergies & Dietary Requirements</h3>
+              <p>
+                At Savory & Sweet, we take allergy concerns seriously. Our staff is trained to assist with ingredient
+                information, and we offer options for various dietary restrictions. Please inform us of any allergies, and
+                we'll ensure your meal is prepared with the utmost care to avoid cross-contamination. Your safety and
+                comfort are our top priorities.
+              </p>
+            </div>
+            <div class="drinks">
+              <h3>Drink</h3>
+              <p>
+                At Savory & Sweet, we offer a carefully curated selection of drinks to complement your meal. Our menu
+                features refreshing non-alcoholic options like fresh juices, iced teas, and handcrafted sodas, as well as
+                a variety of expertly crafted cocktails, wines, and beers for those looking to enjoy a drink with their
+                meal. Whatever your preference, we have something to elevate your dining experience.
+              </p>
+            </div>
           </div>
-
-          <div class="allergy">
-            <h3>Allergies & Dietary Requirements</h3>
-            <p>
-              At Savory & Sweet, we take allergy concerns seriously. Our staff is trained to assist with ingredient
-              information, and we offer options for various dietary restrictions. Please inform us of any allergies, and
-              we'll ensure your meal is prepared with the utmost care to avoid cross-contamination. Your safety and
-              comfort are our top priorities.
-            </p>
-          </div>
-
-          <div class="drinks">
-            <h3>Drink</h3>
-            <p>
-              At Savory & Sweet, we offer a carefully curated selection of drinks to complement your meal. Our menu
-              features refreshing non-alcoholic options like fresh juices, iced teas, and handcrafted sodas, as well as
-              a variety of expertly crafted cocktails, wines, and beers for those looking to enjoy a drink with their
-              meal. Whatever your preference, we have something to elevate your dining experience.
-            </p>
+          <div class="menu-right-col">
+            <img src="" alt="" />
           </div>
         </div>
 
