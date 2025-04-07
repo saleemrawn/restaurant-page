@@ -26,7 +26,56 @@ html {
 
 body {
   margin: 0;
+  background-color: var(--grey-900);
   font-family: var(--font-family);
+  color: var(--grey-100);
+}
+
+button {
+  border: none;
+  border-radius: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+header {
+  display: grid;
+  align-items: center;
+  gap: 160px;
+  grid-template-rows: 1fr;
+  grid-template-columns: auto 1fr;
+  padding-left: 24px;
+  background-color: var(--white);
+}
+
+nav {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 12px;
+}
+
+nav button {
+  padding: 32px 0px;
+  background-color: var(--white);
+}
+
+nav button:hover {
+  background-color: var(--grey-900);
+  color: var(--grey-100);
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: 900;
+  color: var(--grey-900);
+}
+
+.selected {
   background-color: var(--grey-900);
   color: var(--grey-100);
 }
