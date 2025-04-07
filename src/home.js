@@ -1,3 +1,5 @@
+import "./home.css";
+
 export default function loadHome() {
   const content = document.querySelector("#content");
 
