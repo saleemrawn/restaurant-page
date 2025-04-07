@@ -72,23 +72,31 @@ export default function loadHome() {
           </div>
         </div>
 
-        <div class="booking">
-          <div class="reservations">
-            <h2>Reservations</h2>
+        <div class="bookings">
+          <div class="booking-left-col">
+            <img src="" alt="" />
           </div>
-          <div class="opening-times">
-            <h2>Opening times</h2>
+          <div class="booking-right-col">
+             <div class="reservations">
+               <h2>Reservations</h2>
+               <p>For reservations, we kindly invite you to contact us directly by phone at [Insert Phone Number]. Our team is available to assist you in securing your preferred dining time and ensuring a memorable experience. We recommend booking in advance, particularly during peak hours, to guarantee your table.</p>
+               <p>Should you have any special requests or dietary preferences, please feel free to inform us, and we will do our utmost to accommodate your needs.</p>
+             </div>
+             
+             <div class="opening-times">
+                <h2>Opening times</h2>
 
-            <div class="lunch-times">
-              <h3>Lunch</h3>
-              <p>Monday - Friday</p>
-              <p>12pm - 4pm</p>
-            </div>
+                <div class="lunch-times">
+                  <h3>Lunch</h3>
+                  <p>Monday - Friday</p>
+                  <p>12pm - 4pm</p>
+                </div>
 
-            <div class="dinner-times">
-              <h3>Dinner</h3>
-              <p>Monday - Saturday</p>
-              <p>6pm - 11pm</p>
+                <div class="dinner-times">
+                  <h3>Dinner</h3>
+                  <p>Monday - Saturday</p>
+                  <p>6pm - 11pm</p>
+                </div>
             </div>
           </div>
         </div>`;
