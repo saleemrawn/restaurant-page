@@ -9,6 +9,7 @@ export default function loadHome() {
 
         <div class="benefits">
           <div class="benefit-1">
+            <h2>Fresh & Local</h2>
             <p>
               Our commitment to using fresh, locally sourced ingredients ensures every meal is both healthy and full of
               flavor.
@@ -16,12 +17,14 @@ export default function loadHome() {
             <img src="" alt="" />
           </div>
           <div class="benefit-2">
+          <h2>Cozy Ambience</h2>
             <p>
               With a cozy ambiance and attentive service, Savory & Sweet creates the perfect setting for any occasion.
             </p>
             <img src="" alt="" />
           </div>
           <div class="benefit-3">
+          <h2>Guilty-Free</h2>
             <p>
               Enjoy guilt-free indulgence, knowing that our sustainable practices make every dish as kind to the planet
               as it is to your taste buds.
