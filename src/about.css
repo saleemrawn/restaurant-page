@@ -3,6 +3,7 @@
   grid-template-columns: minmax(360px, 1280px);
   grid-template-rows: auto 1fr;
   justify-content: center;
+  margin: 40px 16px 0 16px;
 }
 
 .about-info {
