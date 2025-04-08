@@ -40,7 +40,7 @@
   justify-content: center;
   gap: 64px;
   grid-template-rows: 1fr;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(45vw, auto));
   padding: 0 40px;
 }
 
@@ -65,7 +65,7 @@
   justify-content: center;
   gap: 64px;
   grid-template-rows: 1fr;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(45vw, auto));
   padding: 0 40px;
 }
 
