@@ -38,6 +38,7 @@
 .menu {
   display: grid;
   justify-content: center;
+  gap: 64px;
   grid-template-rows: 1fr;
   grid-template-columns: repeat(2, 1fr);
   padding: 0 40px;
@@ -46,9 +47,8 @@
 .menu-left-col {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 24px;
-  background-color: var(--grey-800);
-  padding: 64px;
 }
 
 .menu-right-col {
@@ -63,6 +63,7 @@
 .bookings {
   display: grid;
   justify-content: center;
+  gap: 64px;
   grid-template-rows: 1fr;
   grid-template-columns: repeat(2, 1fr);
   padding: 0 40px;
@@ -73,19 +74,15 @@
 }
 
 .booking-left-col img {
-  height: 100%;
   width: auto;
+  height: 100%;
 }
 
 .booking-right-col {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  text-align: center;
   gap: 40px;
-  background-color: var(--grey-800);
-  padding: 64px;
 }
 
 .booking {
