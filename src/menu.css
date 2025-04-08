@@ -1,0 +1,45 @@
+.our-menu-container {
+  display: grid;
+  justify-content: center;
+  gap: 64px;
+  grid-template-rows: repeat(4, auto);
+  grid-template-columns: 1fr;
+  margin: 40px 16px;
+}
+
+.our-menu-container h3 {
+  font-size: 20px;
+}
+
+.lunch,
+.dinner,
+.desserts {
+  display: grid;
+  gap: 96px;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(40vw, auto));
+}
+
+.lunch-left-col,
+.dinner-left-col,
+.desserts-left-col {
+  display: grid;
+  gap: 32px;
+  grid-template-rows: repeat(5, auto);
+  grid-template-columns: 1fr;
+}
+
+.lunch,
+.dinner {
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.our-menu-container h3,
+.our-menu-container p {
+  margin-bottom: 8px;
+}
+
+.price {
+  font-style: italic;
+}
