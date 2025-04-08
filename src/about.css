@@ -1,0 +1,17 @@
+.about-container {
+  display: grid;
+  grid-template-columns: minmax(360px, 1280px);
+  grid-template-rows: auto 1fr;
+  justify-content: center;
+}
+
+.about-info {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  gap: 64px;
+}
+
+.about-hero {
+  justify-self: center;
+}
