@@ -17,7 +17,7 @@
   display: grid;
   gap: 96px;
   grid-template-rows: 1fr;
-  grid-template-columns: repeat(auto-fill, minmax(40vw, auto));
+  grid-template-columns: 1fr 60vw;
 }
 
 .lunch-left-col,
