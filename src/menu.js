@@ -47,7 +47,7 @@ export default function loadMenu() {
             </div>
 
             <div class="lunch-right-col">
-              <img src="${lunchImage}" alt="" />
+              <img src="${lunchImage}" alt="sushi" />
             </div>
           </div>
 
@@ -86,7 +86,7 @@ export default function loadMenu() {
             </div>
 
             <div class="dinner-right-col">
-              <img src="${dinnerImage}" alt="" />
+              <img src="${dinnerImage}" alt="plates of lasagna" />
             </div>
           </div>
 
@@ -125,7 +125,7 @@ export default function loadMenu() {
               </div>              
             </div>
             <div class="desserts-right-col">
-              <img src="${dessertImage}" alt="" />
+              <img src="${dessertImage}" alt="plate of chocolate & raspberries" />
             </div>
           </div>
         </div>`;

@@ -20,14 +20,14 @@ export default function loadHome() {
                 Our commitment to using fresh, locally sourced ingredients ensures every meal is both healthy and full of
                 flavor.
               </p>
-              <img src="${freshLocalImage}" alt="" />
+              <img src="${freshLocalImage}" alt="plate of fries and sides" />
             </div>
             <div class="benefit-2">
             <h2>Cozy Ambience</h2>
               <p>
                 With a cozy ambiance and attentive service, Savory & Sweet creates the perfect setting for any occasion.
               </p>
-              <img src="${cozyAmbienceImage}" alt="" />
+              <img src="${cozyAmbienceImage}" alt="restaurant bar" />
             </div>
             <div class="benefit-3">
             <h2>Guilty-Free</h2>
@@ -35,7 +35,7 @@ export default function loadHome() {
                 Enjoy guilt-free indulgence, knowing that our sustainable practices make every dish as kind to the planet
                 as it is to your taste buds.
               </p>
-              <img src="${guiltyFreeImage}" alt="" />
+              <img src="${guiltyFreeImage}" alt="two women eating" />
             </div>
           </div>
           <div class="menu">
@@ -69,12 +69,12 @@ export default function loadHome() {
               </div>
             </div>
             <div class="menu-right-col">
-              <img src="${menuImage}" alt="" />
+              <img src="${menuImage}" alt="baskets of naan bread & pakoras" />
             </div>
           </div>
           <div class="bookings">
             <div class="booking-left-col">
-              <img src="${bookingsImage}" alt="" />
+              <img src="${bookingsImage}" alt="buffet table" />
             </div>
             <div class="booking-right-col">
                <div class="reservations">
